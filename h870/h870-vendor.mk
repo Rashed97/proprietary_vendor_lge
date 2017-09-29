@@ -23,8 +23,8 @@ PRODUCT_COPY_FILES += \
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
-    vendor/lge/h870/proprietary/vendor/firmware/a530_gpmu.fw2:system/system/vendor/firmware/a530_gpmu.fw2 \
-    vendor/lge/h870/proprietary/vendor/firmware/a530_pfp.fw:system/system/vendor/firmware/a530_pfp.fw \
+    vendor/lge/h870/proprietary/vendor/firmware/a530_gpmu.fw2:system/vendor/firmware/a530_gpmu.fw2 \
+    vendor/lge/h870/proprietary/vendor/firmware/a530_pfp.fw:/system/vendor/firmware/a530_pfp.fw \
     vendor/lge/h870/proprietary/vendor/firmware/a530_pm4.fw:system/vendor/firmware/a530_pm4.fw \
     vendor/lge/h870/proprietary/vendor/firmware/a530_zap.b00:system/vendor/firmware/a530_zap.b00 \
     vendor/lge/h870/proprietary/vendor/firmware/a530_zap.b01:system/vendor/firmware/a530_zap.b01 \
