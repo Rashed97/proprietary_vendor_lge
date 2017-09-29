@@ -17,14 +17,14 @@
 
 PRODUCT_COPY_FILES += \
     vendor/lge/h870/proprietary/vendor/firmware/fw_bcmdhd.bin:system/vendor/etc/firmware/fw_bcmdhd.bin \
-    vendor/lge/h870/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/system/vendor/firmware/fw_bcmdhd_apsta.bin \
-    vendor/lge/h870/proprietary/vendor/firmware/fw_bcmdhd_mfg.bin:system/system/vendor/firmware/fw_bcmdhd_mfg.bin \
-    vendor/lge/h870/proprietary/vendor/firmware/BCM4345C0.hcd:system/system/vendor/firmware/BCM4345C0.hcd
+    vendor/lge/h870/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
+    vendor/lge/h870/proprietary/vendor/firmware/fw_bcmdhd_mfg.bin:system/vendor/firmware/fw_bcmdhd_mfg.bin \
+    vendor/lge/h870/proprietary/vendor/firmware/BCM4345C0.hcd:system/vendor/firmware/BCM4345C0.hcd
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
     vendor/lge/h870/proprietary/vendor/firmware/a530_gpmu.fw2:system/vendor/firmware/a530_gpmu.fw2 \
-    vendor/lge/h870/proprietary/vendor/firmware/a530_pfp.fw:/system/vendor/firmware/a530_pfp.fw \
+    vendor/lge/h870/proprietary/vendor/firmware/a530_pfp.fw:system/vendor/firmware/a530_pfp.fw \
     vendor/lge/h870/proprietary/vendor/firmware/a530_pm4.fw:system/vendor/firmware/a530_pm4.fw \
     vendor/lge/h870/proprietary/vendor/firmware/a530_zap.b00:system/vendor/firmware/a530_zap.b00 \
     vendor/lge/h870/proprietary/vendor/firmware/a530_zap.b01:system/vendor/firmware/a530_zap.b01 \
